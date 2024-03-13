@@ -1,0 +1,73 @@
+ /* Full credit to code.org for task */
+  
+p {
+  color: black;
+}
+h1 {
+  color: #abcfab;
+  font-family: courior, monospace;
+}
+p {
+  color:#5f5353;
+  font: "Arial";
+  font-size:16px;
+}
+/* Full credit to code.org for task */
+  
+p {
+  color: #4b4949;
+  font-family: 'Times', sans-serif;
+   font-size:16px;
+}
+h1 {
+  color: #abcfab;
+  font-family: courior, monospace;
+  
+
+}
+body{
+  
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1200px;
+   background: #fcfcfc;
+  color:#4e4e55;
+  text-align: center;
+  vertical-align: super;
+  font-family: 'Arial', sans-serif;
+}
+
+section {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+    img {
+      border: 5px solid #463f3f;
+          transform: rotate(5deg);
+          filter: grayscale(50%);
+          transition: transform 0.3s, filter 0.3s;
+      }
+       filter: grayscale(50%);
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  
+        border: 6px solid #ffffff;
+      box-shadow: 5px 5px 5px #fff5f5;
+      margin: 10px;
+    }
+    p {
+        font-style: italic;
+        text-decoration: underline;
+        letter-spacing: 1px;
+    }
+img:hover {
+  animation: bounce 0.5s;
+  animation-iteration-count: 1;
+}
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
